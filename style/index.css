@@ -111,4 +111,6 @@ body {
 .cart {
   color: green;
   cursor: pointer;
+
+  background-color: #4a4adf;
 }
