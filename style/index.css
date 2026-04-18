@@ -101,6 +101,7 @@ body {
   justify-content: space-between;
   margin-top: 5px;
   font-size: 13px;
+  text-emphasis: none;
 }
 
 .borrow {
@@ -112,5 +113,4 @@ body {
   color: green;
   cursor: pointer;
 
-  background-color: #4a4adf;
 }
