@@ -101,7 +101,6 @@ body {
   justify-content: space-between;
   margin-top: 5px;
   font-size: 13px;
-  text-emphasis: none;
 }
 
 .borrow {
@@ -113,4 +112,90 @@ body {
   color: green;
   cursor: pointer;
 
+}
+
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f6fa;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    padding: 30px 0;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.header h2 {
+    color: #5b5fd4;
+}
+
+.header a {
+    text-decoration: none;
+    color: #5b5fd4;
+}
+
+/* Genres */
+.genres {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.genres button {
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(45deg, #ff7a5c, #ff9966);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.genres button:hover {
+    transform: scale(1.05);
+}
+
+/* Authors */
+.authors {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.author-card {
+    text-align: center;
+}
+
+.author-card img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 4px solid #5b5fd4;
+    object-fit: cover;
+}
+
+.author-card h4 {
+    margin: 10px 0 5px;
+}
+
+.author-card p {
+    color: #ff7a5c;
+    font-weight: bold;
 }
